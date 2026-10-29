@@ -1,0 +1,7 @@
+label,n_samples,MAE_W,RMSE_W,R2,actual_energy_kWh,predicted_energy_kWh,energy_error_kWh,energy_error_pct
+AlwaysOff (test),541871,27.49,204.65,-0.0184,248.24,0.0,-248.24,-100.0
+UsageProfile (test),541871,45.19,202.27,0.0052,248.24,196.29,-51.95,-20.93
+HistGBR (test),541871,30.75,155.53,0.4118,248.24,205.27,-42.97,-17.31
+AlwaysOff (House 17),636004,10.46,126.93,-0.0068,110.91,0.0,-110.91,-100.0
+UsageProfile (House 17),636004,30.56,127.23,-0.0115,110.91,230.56,119.65,107.87
+HistGBR (House 17),636004,16.67,109.37,0.2525,110.91,124.29,13.38,12.06

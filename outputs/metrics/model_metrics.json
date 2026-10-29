@@ -1,0 +1,68 @@
+[
+  {
+    "label": "AlwaysOff (test)",
+    "n_samples": 541871,
+    "MAE_W": 27.49,
+    "RMSE_W": 204.65,
+    "R2": -0.0184,
+    "actual_energy_kWh": 248.24,
+    "predicted_energy_kWh": 0.0,
+    "energy_error_kWh": -248.24,
+    "energy_error_pct": -100.0
+  },
+  {
+    "label": "UsageProfile (test)",
+    "n_samples": 541871,
+    "MAE_W": 45.19,
+    "RMSE_W": 202.27,
+    "R2": 0.0052,
+    "actual_energy_kWh": 248.24,
+    "predicted_energy_kWh": 196.29,
+    "energy_error_kWh": -51.95,
+    "energy_error_pct": -20.93
+  },
+  {
+    "label": "HistGBR (test)",
+    "n_samples": 541871,
+    "MAE_W": 30.75,
+    "RMSE_W": 155.53,
+    "R2": 0.4118,
+    "actual_energy_kWh": 248.24,
+    "predicted_energy_kWh": 205.27,
+    "energy_error_kWh": -42.97,
+    "energy_error_pct": -17.31
+  },
+  {
+    "label": "AlwaysOff (House 17)",
+    "n_samples": 636004,
+    "MAE_W": 10.46,
+    "RMSE_W": 126.93,
+    "R2": -0.0068,
+    "actual_energy_kWh": 110.91,
+    "predicted_energy_kWh": 0.0,
+    "energy_error_kWh": -110.91,
+    "energy_error_pct": -100.0
+  },
+  {
+    "label": "UsageProfile (House 17)",
+    "n_samples": 636004,
+    "MAE_W": 30.56,
+    "RMSE_W": 127.23,
+    "R2": -0.0115,
+    "actual_energy_kWh": 110.91,
+    "predicted_energy_kWh": 230.56,
+    "energy_error_kWh": 119.65,
+    "energy_error_pct": 107.87
+  },
+  {
+    "label": "HistGBR (House 17)",
+    "n_samples": 636004,
+    "MAE_W": 16.67,
+    "RMSE_W": 109.37,
+    "R2": 0.2525,
+    "actual_energy_kWh": 110.91,
+    "predicted_energy_kWh": 124.29,
+    "energy_error_kWh": 13.38,
+    "energy_error_pct": 12.06
+  }
+]

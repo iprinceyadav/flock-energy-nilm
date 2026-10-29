@@ -1,0 +1,9 @@
+{
+  "total_minutes": 920031,
+  "missing_minutes_before_interp": 117396,
+  "short_gaps_filled": 3623,
+  "missing_minutes_after": 113773,
+  "outage_minutes_flagged": 110755,
+  "valid_minutes": 806258,
+  "coverage_pct": 87.63
+}

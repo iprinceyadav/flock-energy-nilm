@@ -1,0 +1,30 @@
+{
+  "nat_timestamps_dropped": 0,
+  "duplicate_timestamps_removed": 761551,
+  "negative_readings_clipped": {
+    "Aggregate": 0,
+    "Appliance1": 0,
+    "Appliance2": 0,
+    "Appliance3": 0,
+    "Appliance4": 0,
+    "Appliance5": 0,
+    "Appliance6": 0,
+    "Appliance7": 0,
+    "Appliance8": 0,
+    "Appliance9": 0
+  },
+  "extreme_readings_replaced_nan": {
+    "Aggregate": 37203,
+    "Appliance1": 811,
+    "Appliance2": 36,
+    "Appliance3": 117,
+    "Appliance4": 1675,
+    "Appliance5": 198,
+    "Appliance6": 35,
+    "Appliance7": 374,
+    "Appliance8": 162,
+    "Appliance9": 46
+  },
+  "rows_before": 8518763,
+  "rows_after": 7757212
+}

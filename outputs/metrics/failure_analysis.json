@@ -1,0 +1,18 @@
+{
+  "high_error_minutes": {
+    "count": 5419,
+    "threshold_w": 663.5,
+    "mean_actual_w": 1593.4,
+    "mean_predicted_w": 625.0
+  },
+  "false_positives_when_off": {
+    "total_off_minutes": 502663,
+    "predictions_above_50w": 20977,
+    "false_positive_rate_pct": 4.173
+  },
+  "missed_active_events": {
+    "total_active_minutes": 35758,
+    "missed_count": 6477,
+    "miss_rate_pct": 18.11
+  }
+}

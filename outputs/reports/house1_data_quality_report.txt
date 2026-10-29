@@ -1,0 +1,57 @@
+=== Data Quality Report — House 1 ===
+Total rows: 8,518,763
+Columns: ['Aggregate', 'Appliance1', 'Appliance2', 'Appliance3', 'Appliance4', 'Appliance5', 'Appliance6', 'Appliance7', 'Appliance8', 'Appliance9']
+Date range: 2013-10-09 14:06:17 → 2015-07-10 11:56:32
+Timestamp parse failures: 0
+Duplicate timestamps: 761,551
+Non-monotonic timestamps: 0
+
+Missing values:
+  Aggregate: 188,973 (2.22%)
+  Appliance1: 437,890 (5.14%)
+  Appliance2: 459,468 (5.39%)
+  Appliance3: 311,961 (3.66%)
+  Appliance4: 510,963 (6.00%)
+  Appliance5: 497,223 (5.84%)
+  Appliance6: 342,337 (4.02%)
+  Appliance7: 232,752 (2.73%)
+  Appliance8: 390,705 (4.59%)
+  Appliance9: 1,911,811 (22.44%)
+
+Negative readings:
+
+Extreme readings (> 4000 W):
+  Aggregate: 41,054
+  Appliance1: 846
+  Appliance2: 40
+  Appliance3: 118
+  Appliance4: 2,085
+  Appliance5: 221
+  Appliance6: 36
+  Appliance7: 374
+  Appliance8: 179
+  Appliance9: 50
+
+Sampling interval (seconds):
+  mean: 6.48
+  median: 6.00
+  min: 0.00
+  max: 3594413.00
+  std: 1291.81
+  mode: 7.00
+
+Significant timestamp gaps (> 60 s): 4037
+  2014-01-24 01:56:26 → 2014-03-06 16:23:19 (59906.9 min)
+  2015-05-10 23:36:10 → 2015-05-19 15:10:22 (12454.2 min)
+  2015-06-10 13:19:01 → 2015-06-18 01:39:44 (10820.7 min)
+  2015-04-03 01:43:17 → 2015-04-07 10:18:40 (6275.4 min)
+  2015-03-22 08:15:59 → 2015-03-24 15:23:02 (3307.1 min)
+  2014-08-30 12:00:55 → 2014-09-01 16:55:25 (3174.5 min)
+  2015-05-24 10:09:42 → 2015-05-26 12:09:30 (2999.8 min)
+  2014-10-27 00:05:01 → 2014-10-28 13:46:50 (2261.8 min)
+  2015-03-31 04:22:37 → 2015-04-01 16:26:20 (2163.7 min)
+  2015-03-15 10:02:17 → 2015-03-16 16:16:37 (1814.3 min)
+  ... and 4027 more
+
+Rows after dedup: 0
+Rows after cleaning: 0

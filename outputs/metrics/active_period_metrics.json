@@ -1,0 +1,18 @@
+[
+  {
+    "label": "AlwaysOff (test) (active only)",
+    "n_active_samples": 35775,
+    "active_pct": 6.6,
+    "MAE_W": 414.53,
+    "RMSE_W": 796.47,
+    "R2": -0.3715
+  },
+  {
+    "label": "HistGBR (test) (active only)",
+    "n_active_samples": 35775,
+    "active_pct": 6.6,
+    "MAE_W": 287.24,
+    "RMSE_W": 561.47,
+    "R2": 0.3184
+  }
+]

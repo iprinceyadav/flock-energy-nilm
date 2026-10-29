@@ -1,0 +1,80 @@
+{
+  "2": {
+    "house_id": 2,
+    "wm_channel": "Appliance2",
+    "date_range_start": "2013-09-17 22:08:00",
+    "date_range_end": "2015-05-28 08:05:00",
+    "total_minutes": 889078,
+    "valid_minutes": 672075,
+    "missing_minutes": 217003,
+    "missing_pct": 24.41,
+    "valid_pct": 75.59,
+    "zero_off_minutes": 634326,
+    "zero_off_pct": 94.38
+  },
+  "5": {
+    "house_id": 5,
+    "wm_channel": "Appliance3",
+    "date_range_start": "2013-09-26 09:56:00",
+    "date_range_end": "2015-07-06 17:48:00",
+    "total_minutes": 933593,
+    "valid_minutes": 850387,
+    "missing_minutes": 83206,
+    "missing_pct": 8.91,
+    "valid_pct": 91.09,
+    "zero_off_minutes": 443039,
+    "zero_off_pct": 52.1
+  },
+  "7": {
+    "house_id": 7,
+    "wm_channel": "Appliance5",
+    "date_range_start": "2013-11-01 22:01:00",
+    "date_range_end": "2015-07-08 02:10:00",
+    "total_minutes": 882970,
+    "valid_minutes": 773064,
+    "missing_minutes": 109906,
+    "missing_pct": 12.45,
+    "valid_pct": 87.55,
+    "zero_off_minutes": 578642,
+    "zero_off_pct": 74.85
+  },
+  "9": {
+    "house_id": 9,
+    "wm_channel": "Appliance3",
+    "date_range_start": "2013-12-17 17:26:00",
+    "date_range_end": "2015-07-08 18:52:00",
+    "total_minutes": 818007,
+    "valid_minutes": 693170,
+    "missing_minutes": 124837,
+    "missing_pct": 15.26,
+    "valid_pct": 84.74,
+    "zero_off_minutes": 628143,
+    "zero_off_pct": 90.62
+  },
+  "17": {
+    "house_id": 17,
+    "wm_channel": "Appliance4",
+    "date_range_start": "2014-03-06 16:23:00",
+    "date_range_end": "2015-06-19 14:52:00",
+    "total_minutes": 676710,
+    "valid_minutes": 636004,
+    "missing_minutes": 40706,
+    "missing_pct": 6.02,
+    "valid_pct": 93.98,
+    "zero_off_minutes": 614375,
+    "zero_off_pct": 96.6
+  },
+  "20": {
+    "house_id": 20,
+    "wm_channel": "Appliance4",
+    "date_range_start": "2014-03-20 12:01:00",
+    "date_range_end": "2015-06-23 19:44:00",
+    "total_minutes": 662864,
+    "valid_minutes": 623738,
+    "missing_minutes": 39126,
+    "missing_pct": 5.9,
+    "valid_pct": 94.1,
+    "zero_off_minutes": 606191,
+    "zero_off_pct": 97.19
+  }
+}

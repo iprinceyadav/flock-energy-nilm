@@ -1,0 +1,196 @@
+{
+  "models": [
+    {
+      "test_metrics": {
+        "label": "HistGBR-Enhanced (test)",
+        "n_samples": 541871,
+        "MAE_W": 32.25,
+        "RMSE_W": 154.07,
+        "R2": 0.4228,
+        "actual_energy_kWh": 248.24,
+        "predicted_energy_kWh": 230.7,
+        "energy_error_kWh": -17.53,
+        "energy_error_pct": -7.06
+      },
+      "held_out_metrics": {
+        "label": "HistGBR-Enhanced (House 17)",
+        "n_samples": 636004,
+        "MAE_W": 16.72,
+        "RMSE_W": 108.98,
+        "R2": 0.2578,
+        "actual_energy_kWh": 110.91,
+        "predicted_energy_kWh": 126.88,
+        "energy_error_kWh": 15.97,
+        "energy_error_pct": 14.4
+      },
+      "active_period_metrics": {
+        "label": "HistGBR-Enhanced (test) (active only)",
+        "n_active_samples": 35775,
+        "active_pct": 6.6,
+        "MAE_W": 280.04,
+        "RMSE_W": 547.21,
+        "R2": 0.3526
+      }
+    },
+    {
+      "test_metrics": {
+        "label": "HistGBR-Tuned (test)",
+        "n_samples": 541871,
+        "MAE_W": 31.73,
+        "RMSE_W": 153.79,
+        "R2": 0.425,
+        "actual_energy_kWh": 248.24,
+        "predicted_energy_kWh": 232.86,
+        "energy_error_kWh": -15.38,
+        "energy_error_pct": -6.19
+      },
+      "held_out_metrics": {
+        "label": "HistGBR-Tuned (House 17)",
+        "n_samples": 636004,
+        "MAE_W": 18.24,
+        "RMSE_W": 112.27,
+        "R2": 0.2123,
+        "actual_energy_kWh": 110.91,
+        "predicted_energy_kWh": 146.21,
+        "energy_error_kWh": 35.29,
+        "energy_error_pct": 31.82
+      },
+      "active_period_metrics": {
+        "label": "HistGBR-Tuned (test) (active only)",
+        "n_active_samples": 35775,
+        "active_pct": 6.6,
+        "MAE_W": 275.85,
+        "RMSE_W": 542.52,
+        "R2": 0.3637
+      }
+    },
+    {
+      "test_metrics": {
+        "label": "XGBoost (test)",
+        "n_samples": 541871,
+        "MAE_W": 32.16,
+        "RMSE_W": 153.71,
+        "R2": 0.4255,
+        "actual_energy_kWh": 248.24,
+        "predicted_energy_kWh": 225.14,
+        "energy_error_kWh": -23.1,
+        "energy_error_pct": -9.31
+      },
+      "held_out_metrics": {
+        "label": "XGBoost (House 17)",
+        "n_samples": 636004,
+        "MAE_W": 18.0,
+        "RMSE_W": 109.36,
+        "R2": 0.2526,
+        "actual_energy_kWh": 110.91,
+        "predicted_energy_kWh": 141.1,
+        "energy_error_kWh": 30.18,
+        "energy_error_pct": 27.21
+      },
+      "active_period_metrics": {
+        "label": "XGBoost (test) (active only)",
+        "n_active_samples": 35775,
+        "active_pct": 6.6,
+        "MAE_W": 281.61,
+        "RMSE_W": 551.51,
+        "R2": 0.3424
+      }
+    },
+    {
+      "test_metrics": {
+        "label": "LightGBM (test)",
+        "n_samples": 541871,
+        "MAE_W": 32.01,
+        "RMSE_W": 154.83,
+        "R2": 0.4171,
+        "actual_energy_kWh": 248.24,
+        "predicted_energy_kWh": 216.66,
+        "energy_error_kWh": -31.58,
+        "energy_error_pct": -12.72
+      },
+      "held_out_metrics": {
+        "label": "LightGBM (House 17)",
+        "n_samples": 636004,
+        "MAE_W": 18.12,
+        "RMSE_W": 109.79,
+        "R2": 0.2467,
+        "actual_energy_kWh": 110.91,
+        "predicted_energy_kWh": 140.04,
+        "energy_error_kWh": 29.13,
+        "energy_error_pct": 26.26
+      },
+      "active_period_metrics": {
+        "label": "LightGBM (test) (active only)",
+        "n_active_samples": 35775,
+        "active_pct": 6.6,
+        "MAE_W": 286.5,
+        "RMSE_W": 558.91,
+        "R2": 0.3246
+      }
+    },
+    {
+      "test_metrics": {
+        "label": "Stacking (test)",
+        "n_samples": 541871,
+        "MAE_W": 33.55,
+        "RMSE_W": 155.28,
+        "R2": 0.4137,
+        "actual_energy_kWh": 248.24,
+        "predicted_energy_kWh": 223.66,
+        "energy_error_kWh": -24.58,
+        "energy_error_pct": -9.9
+      },
+      "held_out_metrics": {
+        "label": "Stacking (House 17)",
+        "n_samples": 636004,
+        "MAE_W": 20.3,
+        "RMSE_W": 110.65,
+        "R2": 0.2348,
+        "actual_energy_kWh": 110.91,
+        "predicted_energy_kWh": 160.35,
+        "energy_error_kWh": 49.44,
+        "energy_error_pct": 44.57
+      },
+      "active_period_metrics": {
+        "label": "Stacking (test) (active only)",
+        "n_active_samples": 35775,
+        "active_pct": 6.6,
+        "MAE_W": 290.25,
+        "RMSE_W": 569.01,
+        "R2": 0.3
+      }
+    },
+    {
+      "test_metrics": {
+        "label": "WeightedBlend (test)",
+        "n_samples": 541871,
+        "MAE_W": 32.01,
+        "RMSE_W": 153.28,
+        "R2": 0.4287,
+        "actual_energy_kWh": 248.24,
+        "predicted_energy_kWh": 224.21,
+        "energy_error_kWh": -24.02,
+        "energy_error_pct": -9.68
+      },
+      "held_out_metrics": {
+        "label": "WeightedBlend (House 17)",
+        "n_samples": 636004,
+        "MAE_W": 18.04,
+        "RMSE_W": 109.25,
+        "R2": 0.2541,
+        "actual_energy_kWh": 110.91,
+        "predicted_energy_kWh": 141.4,
+        "energy_error_kWh": 30.48,
+        "energy_error_pct": 27.48
+      },
+      "active_period_metrics": {
+        "label": "WeightedBlend (test) (active only)",
+        "n_active_samples": 35775,
+        "active_pct": 6.6,
+        "MAE_W": 281.15,
+        "RMSE_W": 551.0,
+        "R2": 0.3436
+      }
+    }
+  ]
+}

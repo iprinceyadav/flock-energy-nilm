@@ -1,0 +1,34 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+outputs/predictions
+# ── Data (large files — do not upload to GitHub) ──
+data/raw/
+data/cleaned/
+data/processed/*.parquet
+data/processed/*.joblib
+
+# ── IDE / OS ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+
+# ── Environment ──
+.env
+venv/
+.venv/
+
+# ── Logs ──
+*.log
