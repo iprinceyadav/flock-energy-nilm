@@ -6,7 +6,7 @@ __pycache__/
 dist/
 build/
 *.so
-outputs/predictions
+
 # ── Data (large files — do not upload to GitHub) ──
 data/raw/
 data/cleaned/
